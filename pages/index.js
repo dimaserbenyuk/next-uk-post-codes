@@ -12,6 +12,6 @@ export async function getServerSideProps() {
     const res = await axios.get(`http://api.postcodes.io/random/postcodes`)
     const data = res.data.result;
 
-    // Pass the data to the page via props
+    // Pass the data to the page via propsss
     return { props: { data } }
 }
